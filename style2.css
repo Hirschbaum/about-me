@@ -1,0 +1,147 @@
+
+body {
+    background-color: #c8d6e5;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: #071f38;
+    /*margin: 10px 20px 10px 20px;*/
+}
+
+/*NAVIGATION - LINKS - OVANFÖR*/
+
+.navigation {
+    padding: 45px 0px 45px 0px;
+    margin: -10px 0px -10px 0px;
+    text-align: center;
+}
+
+.navigation > .links {
+    list-style: none; 
+}
+
+.navigation > .links li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.navigation > .links li a {
+    color: #071f38;
+    font-size: 25px;
+    font-weight: bold; /*'igy lesz dagi a betü*/
+    text-decoration: none;
+    text-shadow: 2px 4px 3px #607288;
+}
+
+.navigation > .links li > .link:hover {
+    text-shadow: 2px 5px 6px #4a5a6b;
+}
+
+/*HEADER*/
+
+header.top{
+height: 20vh;
+background-color: #203142;
+display: flex;
+justify-content: center;
+align-items: center;
+/*text-align: center;*/
+color: #f0efef;
+letter-spacing: 5px;
+/*padding-top: 15px; 
+/*padding-bottom: 30px;*/
+}
+
+/*h1::before {
+    position: absolute; /*csak akkor müködik, ha block a tartalma*/
+}
+*/
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+h1::first-letter {
+    color: rgb(255, 255, 0);
+    font-size: larger;
+    font-weight: initial;
+}
+
+/*HÄR BÖRJAR WEBSIDANS INNEHÅLL*/
+
+main img { /*OM FOTON SYNS INTE, KOLLA: img SRC och inte img scr!!!*/
+    width: 65%;
+    display: block;
+    margin: auto;
+    box-align: center;
+    border-radius: 10px;
+}
+
+.container > .om-mig > h3 {
+    color: #032f5e;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+}
+
+.container > .om-mig {
+    width: 960px;
+    margin: auto;
+    justify-content: center;
+    /*margin: 5px 80px 5px 80px;'/
+    /*padding: 5px 0px 0px 0px*/
+}
+
+/*.container > .om-mig > */.mina-grejer > .intressen > h4 { 
+    color: #032f5e;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    /*padding: 5px 0px 5px 0px;*/
+    }
+
+.mina-grejer > .utbildning > h4 { 
+    color: #032f5e;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    /*padding: 5px 0px 5px 0px;*/
+    }
+
+.mina-grejer > .arbetshistoria > h4 { 
+    color: #032f5e;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    /*padding: 5px 0px 5px 0px;*/
+ }
+
+p {
+    margin-left: -4px;
+    margin-right: -20px;
+    display: block;
+}
+
+p::first-letter {font-size: 200%;}
+
+.container > .om-mig > .mina-grejer > .arbetshistoria > table {
+    background-color: #cedae7;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: #52585f;
+}
+
+/*.container > .om-mig > .mina-grejer > .arbetshistoria > */a::selection { /*SYNS EJ*/
+    color: #f6fa22da;
+}
+
+main::after{ /*HUR GÖR MAN EN LINJE?*/
+    border-bottom-style: solid;
+    color: #071f38;
+    }
+footer {
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
+
+
